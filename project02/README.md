@@ -11,4 +11,13 @@ The configuration for the EMR notebook can be seen in the screenshot below:
 ![notebook_configuration](assets/notebook_configuration.png)
 
 ## Zip Structure
-You can find this project on my public github repo here: 
+You can find this project on [my public github repo here](https://github.com/xyjiang970/bigdatatechClass/tree/main/project02) that follows the structure shown below:
+
+project02
++-- Analysis.ipynb
++-- Analysis.pdf
++-- assets
++-- +-- cluster_configuration.png
++-- +-- notebook_configuration.png
++-- README.md
+ 
