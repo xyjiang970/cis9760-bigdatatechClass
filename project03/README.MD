@@ -20,24 +20,36 @@ Environment variables are needed (REGION and STREAMNAME) as they are not hardcod
 
 ### Project 3 Folder Structure:
 project03
+
 +-- results.csv
+
 +-- results.png
+
 +-- query.sql
+
 +-- data_transformer.py
+
 +-- Analysis.ipynb 	
+
 +-- Analysis.pdf 	
+
 +-- finance_data.zip
+
 +-- assets
+
 +-- +-- kinesis_config.png
+
 +-- +-- screenshot_of_s3_bucket.png
+
 +-- +-- exec_results.png
+
 +-- README.md
 
 ## AWS Kinesis Configuration
-![kinesis_config](/assets/kinesis_config.png)
+![kinesis_config](assets/kinesis_config.png)
 
 ## AWS Lambda Execution Results
-![execution_results](/assets/exec_results.png)
+![execution_results](assets/exec_results.png)
 
 ## AWS S3 Bucket
-![s3_bucket](/assets/screenshot_of_s3_bucket.png)
+![s3_bucket](assets/screenshot_of_s3_bucket.png)
