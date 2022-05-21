@@ -12,7 +12,6 @@ STREAMNAME = os.environ['STREAMNAME']
 
 # us-east-1 is N. Virginia
 # us-east-2 is Ohio
-#kinesis = boto3.client('kinesis', "us-east-2")
 kinesis = boto3.client('kinesis', REGION)
 
 # Stocks
@@ -32,6 +31,5 @@ def lambda_handler(event, context):
             json_data['hour'] = int(str(interval['Datetime'])[11:13])
             json_upload = json.dumps(json_data)+"\n"
 
-            #kinesis.put_record(StreamName="kinesis-prj3", Data=json_upload, PartitionKey="partitionkey")
             kinesis.put_record(StreamName=STREAMNAME, Data=json_upload, PartitionKey="partitionkey")
             time.sleep(1)
